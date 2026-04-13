@@ -1,0 +1,54 @@
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+
+<div style="max-width: 650px; margin: auto; background: #edeae7; padding: 40px; border-radius: 22px; font-family: 'Raleway', sans-serif;">
+  <h2 style="margin-top: 0; text-align: center; font-size: 32px; font-weight: 600; letter-spacing: 0.5px; margin-bottom: 30px;">
+    Kontaktujte nás
+  </h2>
+
+  <form action="https://formsubmit.co/59e5a09e5f0749106db7cd363c34d43c" method="POST">
+
+    <!-- Two-column row -->
+    <div style="display: flex; gap: 18px; margin-bottom: 18px;">
+      <input type="text" name="meno" placeholder="Meno" required
+        style="flex: 1; padding: 14px; border-radius: 14px; border: 1px solid #ccc; background: #fff; font-size: 15px;">
+      <input type="text" name="priezvisko" placeholder="Priezvisko" required
+        style="flex: 1; padding: 14px; border-radius: 14px; border: 1px solid #ccc; background: #fff; font-size: 15px;">
+    </div>
+
+    <!-- Email -->
+    <input type="email" name="email" placeholder="Email" required
+      style="width: 100%; padding: 14px; border-radius: 14px; border: 1px solid #ccc; background: #fff; font-size: 15px; margin-bottom: 18px;">
+
+    <!-- Message -->
+    <textarea name="sprava" placeholder="Správa" required
+      style="width: 100%; padding: 14px; border-radius: 14px; border: 1px solid #ccc; background: #fff; font-size: 15px; height: 160px; margin-bottom: 18px;"></textarea>
+
+    <!-- GDPR -->
+    <label style="display: flex; align-items: center; gap: 12px; margin-bottom: 25px; font-size: 16px; font-weight: 400;">
+      <input type="checkbox" name="gdpr" required style="transform: scale(1.2);">
+      Súhlasím so spracovaním osobných údajov
+    </label>
+
+    <!-- Submit button -->
+    <button type="submit"
+      style="width: 100%; padding: 16px; background: #ff5757; color: white; border: none; border-radius: 14px; font-size: 17px; font-weight: 600; cursor: pointer; transition: 0.25s;">
+      Odoslať
+    </button>
+
+    <style>
+      button:hover {
+        background: #e14c4c !important;
+        transform: translateY(-2px);
+        box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+      }
+      button:active {
+        transform: translateY(0);
+        box-shadow: none;
+      }
+    </style>
+
+    <!-- FormSubmit settings -->
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_template" value="table">
+  </form>
+</div>
