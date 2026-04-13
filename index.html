@@ -1,11 +1,26 @@
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8">
+  <title>Kontaktujte nás</title>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
 
-<div style="max-width: 650px; margin: auto; background: #edeae7; padding: 40px; border-radius: 22px; font-family: 'Raleway', sans-serif;">
+<body style="margin:0; padding:40px; background:#f5f3f1; font-family:'Raleway', sans-serif;">
+
+<div style="max-width: 650px; margin: auto; background: #edeae7; padding: 40px; border-radius: 22px;">
   <h2 style="margin-top: 0; text-align: center; font-size: 32px; font-weight: 600; letter-spacing: 0.5px; margin-bottom: 30px;">
     Kontaktujte nás
   </h2>
 
   <form action="https://formsubmit.co/59e5a09e5f0749106db7cd363c34d43c" method="POST">
+
+    <!-- REDIRECT PO ODOSLANÍ -->
+    <input type="hidden" name="_next" value="https://tvojemeno.github.io/kontaktujte-nas/success.html">
+
+    <!-- FormSubmit nastavenia -->
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_template" value="table">
 
     <!-- Two-column row -->
     <div style="display: flex; gap: 18px; margin-bottom: 18px;">
@@ -47,8 +62,8 @@
       }
     </style>
 
-    <!-- FormSubmit settings -->
-    <input type="hidden" name="_captcha" value="false">
-    <input type="hidden" name="_template" value="table">
   </form>
 </div>
+
+</body>
+</html>
